@@ -18,8 +18,10 @@
     
     <ion-card-content> 
         <!-- <ion-item> -->
-
-      <ion-slides pager>
+          <ion-fab top right *ngIf="showButton">
+            <button ion-fab color="vibrant" mini (click)="goToDecisionPage()" class="btir"><ion-icon name="close"></ion-icon></button>
+          </ion-fab>
+      <ion-slides pager (ionSlideReachEnd)="lastSlide()">
 
           <ion-slide>
             <img src="assets/imgs/Trabalhador.svg" alt="">
@@ -37,17 +39,12 @@
           </ion-slide>
 
           <ion-slide class="teste">
-             
-              
-            <ion-fab top right edge>
-              <button ion-fab color="vibrant" mini (click)="goToDecisionPage()"><ion-icon name="add"></ion-icon></button>
-            </ion-fab>
             
               <img src="assets/imgs/Trabalhador.svg" alt="">
               <img src="assets/imgs/Ana.svg" alt="">
 
             <p>Vamos começar? Basta escolher quem é você a seguir ...</p>
-    <button ion-button color="danger" round (click)="goToDecisionPage()" class="btir">X</button>
+    <!-- <button ion-button color="danger" round (click)="goToDecisionPage()" class="btir">X</button> -->
 
           </ion-slide>
                    

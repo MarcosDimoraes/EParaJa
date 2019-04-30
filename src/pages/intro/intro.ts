@@ -22,6 +22,7 @@ export class IntroPage {
     public navParams: NavParams) {
 
   }
+  public showButton = false;
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad IntroPage');
@@ -36,6 +37,9 @@ export class IntroPage {
 
   goToDecisionPage() {
     this.navCtrl.push(DecisionPage)
+  }
+  lastSlide() {
+    this.showButton=true;
   }
 
 }
