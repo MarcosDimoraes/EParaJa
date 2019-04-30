@@ -5,27 +5,56 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>Intro</ion-title>
-  </ion-navbar>
+  <!-- <ion-navbar> -->
+    
+      <img src="assets/imgs/topo.svg" alt="">
+    
+  <!-- </ion-navbar> -->
 </ion-header>
 
-<ion-content padding>
+<ion-content class="bgcolor" padding>
 
-  <ion-slides pager>
+  <ion-card>
+    
+    <ion-card-content> 
+        <!-- <ion-item> -->
 
-    <ion-slide style="background-color: green">
-      <h2>Slide 1</h2>
-    </ion-slide>
-  
-    <ion-slide style="background-color: blue">
-      <h2>Slide 2</h2>
-    </ion-slide>
-  
-    <ion-slide style="background-color: red">
-      <h2>Slide 3</h2>
-    </ion-slide>
-  
-  </ion-slides>
+      <ion-slides pager>
+
+          <ion-slide>
+            <img src="assets/imgs/Trabalhador.svg" alt="">
+            <p>
+                Somos especialistas...
+            </p>
+          </ion-slide>
+
+          <ion-slide>
+            <img src="assets/imgs/Ana.svg" alt="">
+            <p>
+                The most popular industrial group ever, and largely
+                responsible for bringing the music to a mass audience.
+            </p>
+          </ion-slide>
+
+          <ion-slide class="teste">
+             
+              
+            <ion-fab top right edge>
+              <button ion-fab color="vibrant" mini (click)="goToDecisionPage()"><ion-icon name="add"></ion-icon></button>
+            </ion-fab>
+            
+              <img src="assets/imgs/Trabalhador.svg" alt="">
+              <img src="assets/imgs/Ana.svg" alt="">
+
+            <p>Vamos começar? Basta escolher quem é você a seguir ...</p>
+    <button ion-button color="danger" round (click)="goToDecisionPage()" class="btir">X</button>
+
+          </ion-slide>
+                   
+        
+        </ion-slides>
+      <!-- </ion-item> -->
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>

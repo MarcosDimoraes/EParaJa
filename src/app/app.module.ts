@@ -8,6 +8,10 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { IntroPage } from '../pages/intro/intro';
+import { IntroPageModule } from '../pages/intro/intro.module';
+import { DecisionPageModule } from '../pages/decision/decision.module';
+import { DecisionPage } from '../pages/decision/decision';
 
 @NgModule({
   declarations: [
@@ -18,12 +22,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    IntroPageModule,
+    DecisionPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    IntroPage,
+    DecisionPage
   ],
   providers: [
     StatusBar,
