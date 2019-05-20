@@ -9,6 +9,7 @@ page-cadcontratante {
         border-radius: 5px;
         width: calc(100% - 30px);
         box-shadow: 0 2px 6px 2px #e2e2e2;
+        
     }
     .card-content-md {
         height: 100%;
@@ -104,6 +105,8 @@ page-cadcontratante {
     .height6 ion-item.item.item-block.item-md.item-checkbox.item-checkbox-checked p {
         color: #fff;
     }
-
+    .item-md p {
+        text-align: center;
+    }
 
 }

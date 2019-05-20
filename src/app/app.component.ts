@@ -9,6 +9,7 @@ import { IntroPage } from '../pages/intro/intro';
 import { ChoosetaskPage } from '../pages/choosetask/choosetask';
 import { ChoosetaskformPage } from '../pages/choosetaskform/choosetaskform';
 import { EndintroPage } from '../pages/endintro/endintro';
+import { CadcontratantePage } from '../pages/cadcontratante/cadcontratante';
 
 @Component({
   templateUrl: 'app.html'
