@@ -6,6 +6,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { IntroPage } from '../pages/intro/intro';
+import { ChoosetaskPage } from '../pages/choosetask/choosetask';
+import { ChoosetaskformPage } from '../pages/choosetaskform/choosetaskform';
+import { EndintroPage } from '../pages/endintro/endintro';
 
 @Component({
   templateUrl: 'app.html'
