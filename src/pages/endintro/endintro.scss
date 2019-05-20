@@ -1,0 +1,28 @@
+page-endintro {
+    ion-card img {
+        display: initial;
+        margin-top: 6rem;
+    }
+    .card-md {
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px #888888;
+       
+    }
+    .card-md p {
+    margin: 30px 5px 30px;
+    text-align: -webkit-left;
+    font-size: 2.4rem;
+    }
+    .card-content-md {
+        height: 100%;
+    }
+    .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        display: none;
+        bottom: 0;
+    }
+    
+    .btir {
+        background-color: #E0057B;
+        box-shadow: -2px 3px #800748;
+    }
+}

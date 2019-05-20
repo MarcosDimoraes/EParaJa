@@ -1,0 +1,22 @@
+page-choosetask {
+    .card-md {        
+        box-shadow: none;
+    }
+
+    .col {
+        padding: 10px;
+        box-shadow: 0 4px 15px #888888;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .textleft h4 {
+        text-align: left;
+        margin-left: 2rem;
+        color: #888888;
+    }
+    h4 {
+        font-size: 2rem;
+        text-align: -webkit-center;
+    }
+}
