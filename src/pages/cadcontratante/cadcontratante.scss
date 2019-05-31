@@ -15,6 +15,9 @@ page-cadcontratante {
         height: 100%;
         padding: 0% 0px;
     }
+    .label-md {
+        margin: 0px 0px 0px 0px;
+    }
     ion-item.item.item-block.item-md.item-checkbox.item-checkbox-checked {
         background-color: #e0057b;
         border: 1px solid #ea0074;
@@ -42,7 +45,10 @@ page-cadcontratante {
         height: 10rem;
         width: 28%;
         display: inline-block;
-        margin: 7px;       
+        margin-top: 20px;
+        margin-bottom: -15px;
+        margin-right: -7px;
+        margin-left: 15px;       
     }
     .checkbox-md + .item-inner ion-label {
         margin-left: -6rem;
@@ -53,8 +59,8 @@ page-cadcontratante {
     }
 
     .button-block {
-        width: 92%;
-        left: 1.4rem;
+        width: 91%;
+        left: 1.3rem;
     }
     .button-md {
         border-radius: 5px;
@@ -72,6 +78,7 @@ page-cadcontratante {
         padding-top: 2px !important;
     }
     .textcen h4 {
+        margin-top: 1rem !important;
         font-size: 1.4rem;
     }
     // .ion-md-arrow-back:before {
