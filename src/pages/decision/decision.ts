@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CadcontratantePage } from '../cadcontratante/cadcontratante';
+import { CadFornecedorPage } from '../cad-fornecedor/cad-fornecedor';
 
 /**
  * Generated class for the DecisionPage page.
@@ -24,7 +25,10 @@ export class DecisionPage {
   }
 
   goToCadcontratantePage() {
-    this.navCtrl.push(CadcontratantePage)
+    this.navCtrl.push(CadcontratantePage);
+  }
+  souFornecedor() {
+    this.navCtrl.push(CadFornecedorPage);
   }
 
 }

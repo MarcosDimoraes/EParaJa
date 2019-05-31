@@ -20,12 +20,15 @@ import { ChoosetaskformPage } from '../pages/choosetaskform/choosetaskform';
 import { ChoosetaskformPageModule } from '../pages/choosetaskform/choosetaskform.module';
 import { EndintroPageModule } from '../pages/endintro/endintro.module';
 import { EndintroPage } from '../pages/endintro/endintro';
+import { CadFornecedorPage } from '../pages/cad-fornecedor/cad-fornecedor';
+import { CadFornecedorPageModule } from '../pages/cad-fornecedor/cad-fornecedor.module';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { EndintroPage } from '../pages/endintro/endintro';
     CadcontratantePageModule,
     ChoosetaskPageModule,
     ChoosetaskformPageModule,
-    EndintroPageModule
+    EndintroPageModule,
+    CadFornecedorPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -47,7 +51,8 @@ import { EndintroPage } from '../pages/endintro/endintro';
     CadcontratantePage,
     ChoosetaskPage,
     ChoosetaskformPage,
-    EndintroPage
+    EndintroPage,
+    CadFornecedorPage
   ],
   providers: [
     StatusBar,

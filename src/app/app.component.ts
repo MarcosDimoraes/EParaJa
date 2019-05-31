@@ -10,6 +10,7 @@ import { ChoosetaskPage } from '../pages/choosetask/choosetask';
 import { ChoosetaskformPage } from '../pages/choosetaskform/choosetaskform';
 import { EndintroPage } from '../pages/endintro/endintro';
 import { CadcontratantePage } from '../pages/cadcontratante/cadcontratante';
+import { CadFornecedorPage } from '../pages/cad-fornecedor/cad-fornecedor';
 
 @Component({
   templateUrl: 'app.html'
@@ -18,7 +19,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   //rootPage: any = HomePage;
-  rootPage: any = IntroPage;
+  rootPage: any = CadFornecedorPage;
 
 
   pages: Array<{title: string, component: any}>;
