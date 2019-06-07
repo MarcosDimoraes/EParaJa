@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { BuyCreditsPage } from '../buy-credits/buy-credits';
 
 /**
- * Generated class for the CadFornecedorPage page.
+ * Generated class for the OfferDetailPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,18 +10,17 @@ import { BuyCreditsPage } from '../buy-credits/buy-credits';
 
 @IonicPage()
 @Component({
-  selector: 'page-cad-fornecedor',
-  templateUrl: 'cad-fornecedor.html',
+  selector: 'page-offer-detail',
+  templateUrl: 'offer-detail.html',
 })
-export class CadFornecedorPage {
-public myVariable:string;
+export class OfferDetailPage {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CadFornecedorPage');
+    console.log('ionViewDidLoad OfferDetailPage');
   }
-  goToBuyCredits(){
-    this.navCtrl.push(BuyCreditsPage);
-  }
+  goBack() { this.navCtrl.pop(); }
+
 }

@@ -1,119 +1,132 @@
 page-cadcontratante {
-    
-    .toolbar-title-md {
-        color: #fff;
-    }
-    .card-md {
-        height: 5rem;
-        margin: 15px;
-        border-radius: 5px;
-        width: calc(100% - 30px);
-        box-shadow: 0 2px 6px 2px #e2e2e2;
-        
-    }
-    .card-content-md {
-        height: 100%;
-        padding: 0% 0px;
-    }
-    .label-md {
-        margin: 0px 0px 0px 0px;
-    }
-    ion-item.item.item-block.item-md.item-checkbox.item-checkbox-checked {
-        background-color: #e0057b;
-        border: 1px solid #ea0074;
-        color: #fff;
-    }
-    .checkbox-md .checkbox-checked .checkbox-inner {
-        left: 0px;
-        top: -10px;
-        width: 15px;
-        height: 25px;
-        border-color: #800748;
-        border-width: 5px;
-            border-top-width: 0;
-            border-left-width: 0;
-    }
-    .checkbox-md .checkbox-icon {
-        border-style: none;
-    }
+  .toolbar-title-md,
+  .toolbar-title-ios {
+    color: #fff;
+  }
+  .card-md,
+  .card-ios {
+    height: 5rem;
+    margin: 15px;
+    border-radius: 5px;
+    width: calc(100% - 30px);
+    box-shadow: 0 2px 6px 2px #e2e2e2;
+  }
+  .card-content-md,
+  .card-content-ios {
+    height: 100%;
+    padding: 0% 0px;
+  }
+  .label-md,
+  .label-ios {
+    margin: 0px 0px 0px 0px;
+  }
+  ion-item.item.item-block.item-md.item-checkbox.item-checkbox-checked,
+  ion-item.item.item-block.item-ios.item-checkbox.item-checkbox-checked {
+    background-color: #e0057b;
+    border: 1px solid #ea0074;
+    color: #fff;
+  }
+  .checkbox-md .checkbox-checked .checkbox-inner,
+  .checkbox-ios .checkbox-checked .checkbox-inner {
+    left: 0px;
+    top: -10px;
+    width: 15px;
+    height: 25px;
+    border-color: #800748;
+    border-width: 5px;
+    border-top-width: 0;
+    border-left-width: 0;
+  }
+  .checkbox-md .checkbox-icon,
+  .checkbox-ios .checkbox-icon {
+    border-style: none;
+  }
 
-    .checkbox-md .checkbox-checked {
-        border-color: #488aff00;
-        background-color: #488aff00;
-    }
-    .height6 {
-        height: 10rem;
-        width: 28%;
-        display: inline-block;
-        margin-top: 20px;
-        margin-bottom: -15px;
-        margin-right: -7px;
-        margin-left: 15px;       
-    }
-    .checkbox-md + .item-inner ion-label {
-        margin-left: -6rem;
-        text-align: -webkit-center;
-        margin-top: 2rem;
-        font-size: 2rem;
-        font-weight: bold;
-    }
+  .checkbox-md .checkbox-checked,
+  .checkbox-ios .checkbox-checked {
+    border-color: #488aff00;
+    background-color: #488aff00;
+  }
+  .height6 {
+    height: 10rem;
+    width: 28%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-right: -7px;
+    margin-left: 15px;
+  }
+  .checkbox-md + .item-inner ion-label,
+  .checkbox-ios + .item-inner ion-label {
+    margin-left: -6rem;
+    text-align: -webkit-center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-    .button-block {
-        width: 91%;
-        left: 1.3rem;
-    }
-    .button-md {
-        border-radius: 5px;
-        overflow: hidden;
-        height: 5.6rem;
-        font-size: 1.7rem;
-        font-weight: 700;
-        text-transform: capitalize;
-        background-color: #0699df;
-        margin: 5.4rem 0.2rem;
-    }
-    .textcen {
-        color: #999;
-        padding-bottom: 0px !important;
-        padding-top: 2px !important;
-    }
-    .textcen h4 {
-        margin-top: 1rem !important;
-        font-size: 1.4rem;
-    }
-    // .ion-md-arrow-back:before {
-    //     content: url("../assets/imgs/topo.svg");
-    // }
-    // .label-md {
-    //     margin: 3px 8px 3px 0;
-    // }
+  .button-block {
+    width: 91%;
+    left: 1.3rem;
+  }
+  .button-md,
+  .button-ios {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5.6rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #0699df;
+    margin: 5.4rem 0.2rem;
+  }
+  .textcen {
+    color: #999;
+    padding-bottom: 0px !important;
+    padding-top: 2px !important;
+  }
+  .textcen h4 {
+    margin-top: 1rem !important;
+    font-size: 1.4rem;
+  }
+  // .ion-md-arrow-back:before {
+  //     content: url("../assets/imgs/topo.svg");
+  // }
+  // .label-md {
+  //     margin: 3px 8px 3px 0;
+  // }
 
-    .height6 .item-md {
-        height: 100%;
-        padding-left: 1rem;
-    }
+  .height6 .item-md,
+  .height6 .item-ios {
+    height: 100%;
+    padding-left: 1rem;
+  }
 
-    .height6 .item.item-md .checkbox-md {
-        display: -webkit-inline-box;
-        margin: 5px 10px 5px 5px;
-    }
-    .height6 .label-md {
-        margin: 5px 2px 5px 2px;
-        padding: 0px 0px 0px 0px;
-        height: 50px;
-    }
-    .height6 .checkbox-md .checkbox-icon {
-        display: none;
-    }
-    .height6 ion-icon {
-        display: inline-block;
-        font-size: 2em;
-    }
-    .height6 ion-item.item.item-block.item-md.item-checkbox.item-checkbox-checked p {
-        color: #fff;
-    }
-    .item-md p {
-        text-align: center;
-    }
-
+  .height6 .item.item-md .checkbox-md,
+  .height6 .item.item-ios .checkbox-ios {
+    display: -webkit-inline-box;
+    margin: 5px 10px 5px 5px;
+  }
+  .height6 .label-md,
+  .height6 .label-ios {
+    margin: 5px 2px 5px 2px;
+    padding: 0px 0px 0px 0px;
+    height: 50px;
+  }
+  .height6 .checkbox-md .checkbox-icon,
+  .height6 .checkbox-ios .checkbox-icon {
+    display: none;
+  }
+  .height6 ion-icon {
+    display: inline-block;
+    font-size: 2em;
+  }
+  .height6 ion-item.item.item-block.item-md.item-checkbox.item-checkbox-checked p,
+  .height6 ion-item.item.item-block.item-ios.item-checkbox.item-checkbox-checked p {
+    color: #fff;
+  }
+  .item-md p,
+  .item-ios p {
+    text-align: center;
+  }
 }

@@ -1,11 +1,11 @@
 page-decision {
-    .card-md {
+    .card-md, .card-ios {
         border-radius: 10px;
         box-shadow: 0px 4px 15px #888888;
         margin: 25px auto;
         width: 80%;
     }
-    .card-md p {
+    .card-md p, .card-ios p {
         margin: 10px auto 0;
         font-size: 2.1rem;
         font-weight: 600;

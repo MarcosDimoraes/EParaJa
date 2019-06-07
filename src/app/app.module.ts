@@ -22,6 +22,12 @@ import { EndintroPageModule } from '../pages/endintro/endintro.module';
 import { EndintroPage } from '../pages/endintro/endintro';
 import { CadFornecedorPage } from '../pages/cad-fornecedor/cad-fornecedor';
 import { CadFornecedorPageModule } from '../pages/cad-fornecedor/cad-fornecedor.module';
+import { BuyCreditsPage } from '../pages/buy-credits/buy-credits';
+import { BuyCreditsPageModule } from '../pages/buy-credits/buy-credits.module';
+import { OffersPage } from '../pages/offers/offers';
+import { OffersPageModule } from '../pages/offers/offers.module';
+import { OfferDetailPageModule } from '../pages/offer-detail/offer-detail.module';
+import { OfferDetailPage } from '../pages/offer-detail/offer-detail';
 
 @NgModule({
   declarations: [
@@ -39,7 +45,10 @@ import { CadFornecedorPageModule } from '../pages/cad-fornecedor/cad-fornecedor.
     ChoosetaskPageModule,
     ChoosetaskformPageModule,
     EndintroPageModule,
-    CadFornecedorPageModule
+    CadFornecedorPageModule,
+    BuyCreditsPageModule,
+    OffersPageModule,
+    OfferDetailPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -52,7 +61,10 @@ import { CadFornecedorPageModule } from '../pages/cad-fornecedor/cad-fornecedor.
     ChoosetaskPage,
     ChoosetaskformPage,
     EndintroPage,
-    CadFornecedorPage
+    CadFornecedorPage,
+    BuyCreditsPage,
+    OffersPage,
+    OfferDetailPage,
   ],
   providers: [
     StatusBar,

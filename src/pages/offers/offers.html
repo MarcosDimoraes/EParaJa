@@ -1,0 +1,22 @@
+<!--
+  Generated template for the OffersPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content>
+  <img class="blue-box" src="assets/imgs/Retângulo topo aberto.svg">
+  <img (click)="goBack()" class="botaoLogo" src="assets/imgs/topo.svg">
+  <div class="color-white">
+    <h1 text-center>Ofertas disponíveis</h1>
+    <h4 text-center>Você tem:<img src="assets/imgs/moeda solo.svg">&nbsp;&nbsp;&nbsp;{{moedas}}</h4>
+  </div>
+  <div text-center>
+    <img (click)="getOffer()" src="assets/imgs/botao oferta possivel.svg">
+    <img (click)="getOffer()" src="assets/imgs/botao oferta possivel.svg">
+    <img (click)="getOffer()" src="assets/imgs/botao oferta possivel.svg">
+    <img src="assets/imgs/botao oferta nao possivel.svg">
+  </div>
+</ion-content>

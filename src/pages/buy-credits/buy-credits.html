@@ -1,0 +1,49 @@
+<!--
+  Generated template for the BuyCreditsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Moedas</ion-title>
+    <p></p>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding>
+  <img class="blue-box" src="assets/imgs/Retângulo topo aberto.svg">
+  <img (click)="goBack()" class="botaoLogo" src="assets/imgs/topo.svg">
+  <div class="color-white">
+    <h1 text-center>Moedas</h1>
+    <h4 text-center>Você tem:<img src="assets/imgs/moeda solo.svg">&nbsp;&nbsp;&nbsp;0</h4>
+  </div>
+  <ion-card>
+    <ion-item (click)="buy(1200)">
+      <ion-avatar item-start>
+        <img src="assets/imgs/moedas 1.svg">
+      </ion-avatar>
+      <h2>1200 moedas</h2>
+      <p>R$179,90 - R$0,15 por moeda</p>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item (click)="buy(2400)">
+      <ion-avatar item-start>
+        <img src="assets/imgs/moedas 2.svg">
+      </ion-avatar>
+      <h2>2400 moedas</h2>
+      <p>R$349,90 - R$0,14 por moeda</p>
+    </ion-item>
+  </ion-card>
+  <ion-card>
+    <ion-item (click)="buy(4800)">
+      <ion-avatar item-start>
+        <img src="assets/imgs/moedas 3.svg">
+      </ion-avatar>
+      <h2>4800 moedas</h2>
+      <p>R$699,90 - R$0,14 por moeda</p>
+    </ion-item>
+  </ion-card>
+  <button (click)="buy(0)" ion-button full>Avançar sem comprar créditos</button>
+</ion-content>

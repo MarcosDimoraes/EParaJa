@@ -6,11 +6,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { IntroPage } from '../pages/intro/intro';
-import { ChoosetaskPage } from '../pages/choosetask/choosetask';
-import { ChoosetaskformPage } from '../pages/choosetaskform/choosetaskform';
-import { EndintroPage } from '../pages/endintro/endintro';
-import { CadcontratantePage } from '../pages/cadcontratante/cadcontratante';
-import { CadFornecedorPage } from '../pages/cad-fornecedor/cad-fornecedor';
 
 @Component({
   templateUrl: 'app.html'
@@ -19,7 +14,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   //rootPage: any = HomePage;
-  rootPage: any = CadFornecedorPage;
+  rootPage: any = IntroPage;
 
 
   pages: Array<{title: string, component: any}>;
