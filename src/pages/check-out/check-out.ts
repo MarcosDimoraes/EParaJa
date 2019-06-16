@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { OfferDetailPage } from '../offer-detail/offer-detail';
+import { OffersPage } from '../offers/offers';
 
 /**
- * Generated class for the OffersPage page.
+ * Generated class for the CheckOutPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,22 +11,17 @@ import { OfferDetailPage } from '../offer-detail/offer-detail';
 
 @IonicPage()
 @Component({
-  selector: 'page-offers',
-  templateUrl: 'offers.html',
+  selector: 'page-check-out',
+  templateUrl: 'check-out.html',
 })
-export class OffersPage {
-  public moedas: number;
+export class CheckOutPage {
+  public moedas: number = 0;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad OffersPage');
+    console.log('ionViewDidLoad CheckOutPage');
     this.moedas = this.navParams.get('moedas');
   }
-  getOffer() {
-    this.moedas-=100;
-    this.navCtrl.push(OfferDetailPage,{'moedas':this.moedas});
-  }
-  goBack() { this.navCtrl.pop(); }
-
+  goOffers() { this.navCtrl.push(OffersPage, { moedas: this.moedas }) }
 }

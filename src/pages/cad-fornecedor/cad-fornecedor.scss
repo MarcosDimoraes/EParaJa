@@ -1,6 +1,29 @@
 page-cad-fornecedor {
-    .toolbar-title-md {
-        color: #fff;
-    }
-    .proChecked{background-color: #e0057b;}
+  .toolbar-title-md,
+  .toolbar-title-ios {
+    color: #fff;
+  }
+  .proChecked {
+    background-color: #e0057b;
+  }
+  .choosePro .card-md,
+  .choosePro .card-ios {
+    box-shadow: none;
+    background: none;
+  }
+  .col {
+    padding: 10px;
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 5px;
+    margin:5px;
+  }
+  .textleft h4 {
+    text-align: left;
+    margin-left: 2rem;
+    color: #888888;
+  }
+  h4 {
+    font-size: 2rem;
+    text-align: -webkit-center;
+  }
 }

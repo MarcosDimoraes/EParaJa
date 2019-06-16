@@ -28,6 +28,8 @@ import { OffersPage } from '../pages/offers/offers';
 import { OffersPageModule } from '../pages/offers/offers.module';
 import { OfferDetailPageModule } from '../pages/offer-detail/offer-detail.module';
 import { OfferDetailPage } from '../pages/offer-detail/offer-detail';
+import { CheckOutPageModule } from '../pages/check-out/check-out.module';
+import { CheckOutPage } from '../pages/check-out/check-out';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { OfferDetailPage } from '../pages/offer-detail/offer-detail';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp,{
+      backButtonText:"Voltar"
+    }),
     IntroPageModule,
     DecisionPageModule,
     CadcontratantePageModule,
@@ -48,7 +52,8 @@ import { OfferDetailPage } from '../pages/offer-detail/offer-detail';
     CadFornecedorPageModule,
     BuyCreditsPageModule,
     OffersPageModule,
-    OfferDetailPageModule
+    OfferDetailPageModule,
+    CheckOutPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -65,6 +70,7 @@ import { OfferDetailPage } from '../pages/offer-detail/offer-detail';
     BuyCreditsPage,
     OffersPage,
     OfferDetailPage,
+    CheckOutPage
   ],
   providers: [
     StatusBar,

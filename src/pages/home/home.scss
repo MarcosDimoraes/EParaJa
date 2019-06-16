@@ -1,32 +1,31 @@
 page-home {
-    .swiper-pagination-clickable .swiper-pagination-bullet {
-        display: none;
-    }
-}
-ion-header {
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    display: none;
+  }
+
+  ion-header {
     background-color: #0699df;
     height: 5rem;
-}
-ion-header img {
+  }
+  ion-header img {
     margin: 0 auto;
     display: block;
     width: 15vw;
     margin-top: -9px;
-}
-.header-md::after {
+  }
+  .header-md::after {
     background-image: none;
-}
-.toolbar-md {
+  }
+  .toolbar-md {
     min-height: 65px;
-}
-.toolbar-background-md {
+  }
+  .toolbar-background-md {
     border-color: #0699df;
     background: #0699df;
-}
-.bgcolor {
+  }
+  .bgcolor {
     background-color: #f5f5f5;
+  }
+  .header .header-md img {
+  }
 }
-.header .header-md img {
-    
-}
-

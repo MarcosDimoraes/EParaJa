@@ -43,44 +43,42 @@
     <div class="textleft" padding>
       <h4>Que tipo de profissional você é?</h4>
     </div>
-    <ion-grid text-center>
+    <ion-grid text-center class="choosePro">
       <ion-row>
-        <ion-col >
-          <ion-card (click)="togglePintor=!togglePintor" >
-            <ion-card-content [ngClass]="{'proChecked':togglePintor}">
+        <ion-col [ngClass]="{'proChecked':togglePintor}">
+          <ion-card (click)="togglePintor=!togglePintor">
+            <ion-card-content>
               <img src="assets/icon/001-roller.svg" alt="">
             </ion-card-content>
           </ion-card>
           <h4>Pintor</h4>
         </ion-col>
-        <ion-col>
-          <ion-card (click)="toggleMario=!toggleMario" >
-            <ion-card-content [ngClass]="{'proChecked':toggleMario}">
-              <img src="assets/icon/002-faucet.svg" alt="">
-            </ion-card-content>
+        <ion-col [ngClass]="{'proChecked':toggleMario}">
+          <ion-card (click)=" toggleMario=!toggleMario">
+          <ion-card-content >
+              <img src=" assets/icon/002-faucet.svg" alt="">
+          </ion-card-content>
           </ion-card>
           <h4>Encanador</h4>
         </ion-col>
       </ion-row>
-
       <ion-row>
-        <ion-col>
-          <ion-card (click)="togglePedreiro=!togglePedreiro" >
-            <ion-card-content [ngClass]="{'proChecked':togglePedreiro}"> 
-              <img src="assets/icon/002-trowel.svg" alt="">
+        <ion-col [ngClass]="{'proChecked':togglePedreiro}">
+          <ion-card (click)="togglePedreiro=!togglePedreiro">
+            <ion-card-content> 
+              <img src=" assets/icon/002-trowel.svg" alt="">
             </ion-card-content>
           </ion-card>
           <h4>Pedreiro</h4>
-        </ion-col>
-
-        <ion-col>
-          <ion-card (click)="toggleEletricista=!toggleEletricista" >
-            <ion-card-content [ngClass]="{'proChecked':toggleEletricista}">
-              <img src="assets/icon/001-plug.svg" alt="">
-            </ion-card-content>
-          </ion-card>
-          <h4>Eletricista</h4>
-        </ion-col>
+          </ion-col>
+          <ion-col [ngClass]="{'proChecked':toggleEletricista}">
+            <ion-card (click)="toggleEletricista=!toggleEletricista">
+              <ion-card-content>
+                <img src="assets/icon/001-plug.svg" alt="">
+              </ion-card-content>
+            </ion-card>
+            <h4>Eletricista</h4>
+          </ion-col>
       </ion-row>
     </ion-grid>
     <button ion-button type="submit" block>Avançar</button>

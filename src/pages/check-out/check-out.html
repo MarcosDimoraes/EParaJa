@@ -1,0 +1,38 @@
+<!--
+  Generated template for the CheckOutPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding>
+  <img class="blue-box" src="assets/imgs/Retângulo topo aberto.svg">
+  <img (click)="goBack()" class="botaoLogo" src="assets/imgs/topo.svg">
+  <div class="color-white">
+    <h1 text-center>Visualizar Oferta</h1>
+    <h4 text-center>Você tem:<img src="assets/imgs/moeda solo.svg">&nbsp;&nbsp;&nbsp;{{moedas}}</h4>
+  </div>
+  <h4 text-center>Parabéns! Entre em contato e feche negócio.</h4>
+  <p text-center>Entraremos em contato para saber como tudo está indo. Bons negócios!</p>
+  <ion-card>
+    <ion-card-header>
+      Pedreiro - Reforma Geral
+    </ion-card-header>
+    <ion-list>
+      <ion-item>
+        <ion-icon name='person' item-start></ion-icon>Antonio Gonçalvez
+      </ion-item>
+      <ion-item>
+        <ion-icon name='pin' item-start></ion-icon>Rua Amazonas 345, Pituba
+      </ion-item>
+      <ion-item class="full-text">Demolição de 3 paredes e construção de casa de cachorro no quintal.</ion-item>
+      <ion-item>
+        <ion-icon name='logo-whatsapp' item-start></ion-icon>71 99123 4567
+      </ion-item>
+      <ion-item>
+        <ion-icon name='mail' item-start></ion-icon>antogon@gmail.com
+      </ion-item>
+    </ion-list>
+  </ion-card>
+  
+  <button ion-button full (click)="goOffers()">Ver mais ofertas.</button>
+</ion-content>

@@ -15,8 +15,9 @@ import { EndintroPage } from '../endintro/endintro';
   templateUrl: 'choosetaskform.html',
 })
 export class ChoosetaskformPage {
-
+public service:string='';
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.service=this.navParams.get('service');
   }
 
   ionViewDidLoad() {

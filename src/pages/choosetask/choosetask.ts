@@ -24,8 +24,8 @@ export class ChoosetaskPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChoosetaskPage');
   }
-  goToChoosetaskformPage() {
-    this.navCtrl.push(ChoosetaskformPage)
+  goToChoosetaskformPage(service:string) {
+    this.navCtrl.push(ChoosetaskformPage,{'service':service});
   }
 
 }
